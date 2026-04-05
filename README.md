@@ -41,17 +41,17 @@ Acesse [http://localhost:3000](http://localhost:3000) no navegador.
 ```
 src/
 ├── context/
-│   └── TaskContext.js     # Contexto global com CRUD completo
+│   └── TaskContext.jsx     # Contexto global com CRUD completo
 ├── components/
-│   ├── Navbar.js          # Barra de navegação
-│   ├── TaskCard.js        # Card individual de tarefa
-│   └── EditModal.js       # Modal de edição
+│   ├── Navbar.jsx          # Barra de navegação
+│   ├── TaskCard.jsx        # Card individual de tarefa
+│   └── EditModal.jsx       # Modal de edição
 ├── pages/
-│   ├── Home.js            # Lista de tarefas com filtros e stats
-│   └── AddTask.js         # Formulário de nova tarefa
-├── App.js                 # Configuração de rotas
-├── index.js               # Entry point
-└── index.css              # Estilos globais
+│   ├── Home.jsx            # Lista de tarefas com filtros e stats
+│   └── AddTask.jsx         # Formulário de nova tarefa
+├── App.jsx                 # Configuração de rotas
+├── index.jsx               # Entry point
+└── index.css               # Estilos globais
 ```
 
 ## 🎨 Design
